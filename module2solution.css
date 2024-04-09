@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Appetizer Menu</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+    }
+
+    header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .appetizer-section {
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    .chicken {
+        background-color: #ffd700; /* gold */
+    }
+
+    .beef {
+        background-color: #8b4513; /* saddlebrown */
+        color: #fff;
+    }
+
+    .sushi {
+        background-color: #4682b4; /* steelblue */
+        color: #fff;
+    }
+
+    .section-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .appetizer-item {
+        margin: 20px auto;
+        padding: 20px;
+        width: 80%;
+        max-width: 600px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Delicious Appetizers</h1>
+</header>
+
+<section class="appetizer-section chicken">
+    <h2 class="section-title">Chicken Appetizers</h2>
+    <div class="appetizer-item">
+        <h3>Fried Chicken Wings</h3>
+        <p>Delicious crispy chicken wings served with a side of hot sauce.</p>
+    </div>
+    <div class="appetizer-item">
+        <h3>Chicken Satay</h3>
+        <p>Grilled chicken skewers served with peanut sauce and cucumber salad.</p>
+    </div>
+</section>
+
+<section class="appetizer-section beef">
+    <h2 class="section-title">Beef Appetizers</h2>
+    <div class="appetizer-item">
+        <h3>Beef Carpaccio</h3>
+        <p>Thinly sliced raw beef served with arugula, parmesan cheese, and olive oil.</p>
+    </div>
+    <div class="appetizer-item">
+        <h3>Beef Empanadas</h3>
+        <p>Flaky pastry filled with seasoned ground beef, onions, and spices.</p>
+    </div>
+</section>
+
+<section class="appetizer-section sushi">
+    <h2 class="section-title">Sushi Appetizers</h2>
+    <div class="appetizer-item">
+        <h3>Sushi Rolls</h3>
+        <p>A variety of sushi rolls including California roll, spicy tuna roll, and salmon avocado roll.</p>
+    </div>
+    <div class="appetizer-item">
+        <h3>Sashimi Platter</h3>
+        <p>Fresh slices of raw fish including tuna, salmon, and yellowtail.</p>
+    </div>
+</section>
+
+</body>
+</html>
